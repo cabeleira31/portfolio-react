@@ -1,6 +1,6 @@
 # João Pedro Cabeleira React Portfolio
 
-<a href="https://portfolio-joao-react.web.app/">
+<a href="https://portfolio-joao-react.web.app/"/>
 <img src="./main.png" />    </a>
 - My personal portfolio website
 - Built with React
