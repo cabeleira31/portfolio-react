@@ -1,28 +1,29 @@
 import React from "react";
-import aboutimg from "../../media/about.JPG"
+import projeto1 from "../../media/projeto1.png"
+import projeto2 from "../../media/projeto2.png"
 import "./Slider.css";
 
 const slidesInfo = [
     {
-        src: aboutimg,
-        alt: "Project 1",
-        desc: "Project 1"
+        src: projeto1,
+        alt: "Portfolio",
+        desc: "Portfólio",
+        url: "https://portfolio-joao-react.web.app/",
     },
     {
-        src: aboutimg,
-        alt: "Project 2",
-        desc: "Project 2",
-    },
-    {
-        src: aboutimg,
-        alt: "Project 3",
-        desc: "Project 3"
+        src: projeto2,
+        alt: "Formulario",
+        desc: "Formulario",
+        url: "https://formulario-react-fca18.web.app/",
     }
+
 ]
 
 const slides = slidesInfo.map(slide => (
     <div className="slide-container">
-        <img src={slide.src} alt={slide.alt} />
+        <a href={slide.url}>
+            <img src={slide.src} alt={slide.alt} />
+        </a>
         <div className="slide-desc">
             <span>{slide.desc}</span>
         </div>
