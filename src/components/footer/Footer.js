@@ -28,6 +28,9 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-p-cabeleira-a90b28109/" target="_blank" rel='noreferrer'>
                         <i className='fab fa-linkedin linkedin'></i>
                     </a>
+                    <a href="https://github.com/cabeleira31/" target="_blank" rel='noreferrer'>
+                        <i className='fab fa-github github'></i>
+                    </a>
                     <a href="https://api.whatsapp.com/send?phone=5555984028802&text=Hello%20João%2C%20How%20are%20you%3F%20Just%20got%20your%20number%20from%20your%20portfolio!!" target="_blank" rel='noreferrer'>
                         <i className='fab fa-whatsapp whatsapp'></i>
                     </a>
